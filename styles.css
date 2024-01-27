@@ -8,6 +8,7 @@ body{
     background-color: transparent;
     width: 60%;
     position: fixed;
+    z-index: 0;
        
     
 }
@@ -88,3 +89,6 @@ main{
 
 
 
+.about-us{
+    margin:4rem 4rem;
+}
