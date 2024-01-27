@@ -35,7 +35,7 @@ body{
     align-items: center;
     margin:auto;
     font-family: 'Courier New', Courier, monospace;
-    backdrop-filter: blur(  );
+    
 
     
 }
@@ -50,23 +50,41 @@ body{
     background-image: url("/pics/Screenshot\ 2024-01-27\ 085008.png");
    
 }
-.expert-div{
-margin-top: 3rem;
+
+.expertise-div{
+    margin:4rem 4rem;
+    height: 40vh;
+
 
 }
-.expert-head{
-    font-size: 50px;
-    font-family: sans-serif;
+.expertise-head{
+    font-size: 40px ;
+    padding: 2rem 2rem;
 }
 
 
+.projects-container{
+    height: auto;
+    margin:4rem 4rem;
+    
 
+}
 
+.projects-div{
+    font-size: 40px;
+    padding: 2rem 2rem ;
+}
 
+main{
+    width: 60%;
+}
 
-
-
-
+.projects{
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+}
 
 
 
